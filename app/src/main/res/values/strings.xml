@@ -2,4 +2,9 @@
     <string name="app_name">Black Butterfly</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Navigation -->
+    <string-array name="navigation_array">
+        <item>Blog</item>
+    </string-array>
 </resources>
