@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class ServicesFragment extends Fragment {
 
-    ArrayAdapter<String> newsAdapter;
+    ArrayAdapter<String> servicesAdapter;
 
     public ServicesFragment() {
         // Empty constructor required for fragment subclasses
@@ -27,25 +27,25 @@ public class ServicesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        String[] newsArray = {
+        String[] servicesArray = {
                 "Website Designing",
                 "Android Application Development",
                 "Internet Marketing",
                 "Software Development",
         };
 
-        List<String> latestnews = new ArrayList<String>(Arrays.asList(newsArray));
+        List<String> services = new ArrayList<String>(Arrays.asList(servicesArray));
 
-        newsAdapter = new ArrayAdapter<String>(
+        servicesAdapter = new ArrayAdapter<String>(
                 getActivity(),
                 R.layout.list_item_news,
                 R.id.list_item_news_textview,
-                latestnews);
+                services);
 
         View rootview = inflater.inflate(R.layout.fragment_services, container, false);
 
-        ListView listView = (ListView) rootview.findViewById(R.id.list_item_news);
-        listView.setAdapter(newsAdapter);
+        ListView listView = (ListView) rootview.findViewById(R.id.list_item_services);
+        listView.setAdapter(servicesAdapter);
 
         return rootview;
 

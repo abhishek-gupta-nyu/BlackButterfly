@@ -28,17 +28,10 @@ public class BlogFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         String[] newsArray = {
-                "Sample News 1",
-                "Sample News 2",
-                "Sample News 3",
-                "Sample News 4",
-                "Sample News 5",
-                "Sample News 6",
-                "Sample News 7",
-                "Sample News 8",
-                "Sample News 9",
-                "Sample News 10",
-                "Sample News 11",
+                "Java",
+                "PHP",
+                "ASP",
+                "Android"
         };
 
         List<String> latestnews = new ArrayList<String>(Arrays.asList(newsArray));

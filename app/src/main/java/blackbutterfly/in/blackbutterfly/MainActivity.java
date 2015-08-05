@@ -60,6 +60,9 @@ public class MainActivity extends ActionBarActivity {
             case 0:
                 fragment = new BlogFragment();
                 break;
+            case 1:
+                fragment = new ServicesFragment();
+                break;
             default:
                 fragment = new BlogFragment();
         }
