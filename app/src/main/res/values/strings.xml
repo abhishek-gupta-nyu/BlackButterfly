@@ -6,5 +6,6 @@
     <!-- Navigation -->
     <string-array name="navigation_array">
         <item>Blog</item>
+        <item>Services</item>
     </string-array>
 </resources>
